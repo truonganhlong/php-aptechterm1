@@ -1,0 +1,108 @@
+.containers {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+}
+.order {
+    padding: 180px 0 0;
+    background-color: #dbe5ee;
+}
+.order-top {
+    width: 100%;
+    text-align: center;
+    color: #373d41;
+    border: 5px solid #787cf6;
+    padding: 20px 20px;
+    margin: 30px 30px;
+}
+.order-left {
+    width: 70%;
+    height: 330px;
+    display: block;
+    background: #fff;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px 30px 20px 30px;
+}
+.order-left button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.order-left input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.order-left label {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #373d41;   
+}
+.order-left p {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.order-right {
+    width: 30%;
+    height: 100%;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.overview {
+    background: #fff;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.overview table {
+    width: 100%;
+    height: 100%;
+ }
+.overview tr:not(:first-child) > th:first-child {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #373d41;
+    width: 50%;
+    padding: 10px;
+}
+.overview tr:not(:first-child) > th:last-child {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #373d41;
+    width: 50%;
+    padding: 10px;
+}
+.checkout button {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.advertise {
+    background: #fff;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.advertise p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #373d41;
+    background-color: #fff;
+    padding: 20px 20px;
+}

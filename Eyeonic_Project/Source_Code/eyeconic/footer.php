@@ -1,0 +1,36 @@
+<?php
+echo "<footer class=\"footer\">\n";
+echo "        <div class=\"container\">\n";
+echo "            <div class=\"row\">\n";
+echo "                <div class=\"footer-col\">\n";
+echo "                    <h4>MY ACCOUNT <hr size=\"2\" width=\"20%\" color=\"#e91e63\"></h4>\n";
+echo "                    <ul>\n";
+echo "                        <li><a href=\"account.php\">Manage My Account</a></li>\n";
+echo "                        <li><a href=\"cart.php\">View My Cart</a></li>\n";
+echo "                        <li><a href=\"orderstatus.php\">Check Order Status</a></li>\n";
+echo "                    </ul>\n";
+echo "                </div>\n";
+echo "                <div class=\"footer-col\">\n";
+echo "                    <h4>CONTACT US <hr size=\"2\" width=\"20%\" color=\"#e91e63\"></h4>                      \n";
+echo "                    <ul>\n";
+echo "                        <li>Follow Eyeconic\n";
+echo "                            <div class=\"icon-container\">\n";
+echo "                                <p><a class=\"fa-brands fa-facebook\" href=\"https://www.facebook.com/profile.php?id=100008257302153\"target=\"_blank\"></a></p> \n";
+echo "                                <p><a class=\"fa-brands fa-twitter\" href=\"https://twitter.com/LongXoax\"target=\"_blank\"></a></p>\n";
+echo "                                <p><a class=\"fa-brands fa-instagram\" href=\"https://www.instagram.com/longchamhoc/?hl=en\"target=\"_blank\"></a></p>\n";
+echo "                            </div>\n";
+echo "                        </li>\n";
+echo "                        <li><a href=\"https://www.google.com/maps/place/54+P.+L%C3%AA+Thanh+Ngh%E1%BB%8B,+B%C3%A1ch+Khoa,+Hai+B%C3%A0+Tr%C6%B0ng,+H%C3%A0+N%E1%BB%99i,+Vietnam/@21.0030003,105.8465654,16.21z/data=!4m6!3m5!1s0x3135ad58455db2ab:0x9b3550bc22fd8bb!8m2!3d21.0034753!4d105.8498832!16s%2Fg%2F11h5vfdl9k\" target=\"_blank\">Our Shop Location: <p class=\"address\">54 Le Thanh Nghi Str, Bach Khoa Ward, Hai Ba Trung District, Hanoi</p></a></li>\n";
+echo "                        <li>Our Email Contact: <p class=\"email\">truonganhlong.1209@gmail.com</p></li>                        \n";
+echo "                    </ul>\n";
+echo "                </div>\n";
+echo "                <div class=\"footer-col\">\n";
+echo "                    <h4>RECEIVE NEWS AND OFFERS <hr size=\"2\" width=\"20%\" color=\"#e91e63\"></h4>\n";
+echo "                    <ul>\n";
+echo "                        <li><input type=\"email\" placeholder=\"EMAIL ADDRESS\"> <button class=\"fa-solid fa-check\" id=\"submit-email\"></button></li>                        \n";
+echo "                    </ul>\n";
+echo "                </div>\n";
+echo "            </div>\n";
+echo "        </div>           \n";
+echo "    </footer>";
+?>
